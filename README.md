@@ -33,27 +33,29 @@ git fetch retrieves changes from the remote repository but doesn't automatically
 **Git rebase and the command for it**
 git rebase is a Git command used to change the base of your current branch. It's like picking up your changes and putting them on top of the latest changes from another branch.
 
-__git rebase <branch_name>__
+__git rebase <branch_name>__ .
 This command takes the changes from your current branch and applies them on top of the specified branch.
 
 **Example:**
 Suppose you are on a feature branch and want to update it with changes from the main branch. You would run:
 
-__git checkout feature_branch__
-__git rebase main__
+__git checkout feature_branch__ .
+__git rebase main__  .
 
 while rebase can be useful, it should be used with caution, especially when collaborating with others, as it rewrites commit history. It's generally recommended for local branches that you haven't shared with others.
 
 **Git cherry-pick and the command for it**
 git cherry-pick is a Git command used to pick and apply specific commits from one branch to another. It's like saying, "I want only these changes from that branch."
 
-__git cherry-pick <commit_hash>__
+__git cherry-pick <commit_hash>__ .
 This command takes the changes introduced by the specified commit and applies them to your current branch.
 
 **Example:**
 Suppose you are on your feature branch and want to pick a specific commit from the main branch. You would run:
 
-__git checkout feature_branch__
-__git cherry-pick <commit_hash_from_main>__
+__git checkout feature_branch__ .
+
+
+__git cherry-pick <commit_hash_from_main>__ .
 
 This command helps you selectively bring changes from one commit to another branch without merging the entire branch. However, be cautious with this command, especially if you're working in a shared repository, as it can lead to duplicated commits and potential conflicts.
