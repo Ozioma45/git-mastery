@@ -6,21 +6,21 @@ Version control is a system that tracks changes to a set of files over time. Its
 
 **the key concepts and components of version control include:**
 
-Repository: Storage for project files and history.
+**Repository:** Storage for project files and history.
 
-Commits: Snapshots of project states with changes and metadata.
+**Commits:** Snapshots of project states with changes and metadata.
 
-Branches: Separate lines of development for concurrent work.
+**Branches:** Separate lines of development for concurrent work.
 
-Merge: Combining changes from one branch into another.
+**Merge:** Combining changes from one branch into another.
 
-Checkout: Switching between branches or commits.
+**Checkout:** Switching between branches or commits.
 
-Conflict Resolution: Managing conflicts when changes overlap.
+**Conflict Resolution:** Managing conflicts when changes overlap.
 
-Remote Repositories: Copies of projects hosted on servers.
+**Remote Repositories:** Copies of projects hosted on servers.
 
-Version Control Systems (VCS): Tools like Git for tracking changes.
+**Version Control Systems (VCS):** Tools like Git for tracking changes.
 
 Git is one of the most widely used distributed version control systems, known for its speed, flexibility, and powerful branching and merging capabilities. Other version control systems include Subversion (SVN) and Mercurial.
 
